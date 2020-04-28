@@ -1,0 +1,6 @@
+/Debug/
+/.settings/
+.ccsproject
+.cproject
+.project
+*.cmd
