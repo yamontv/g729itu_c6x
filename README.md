@@ -13,6 +13,3 @@ Inlude g729itu.h in your code and use.
 * Use maximum optimization level in your CCS
 * Enable caching
 * Align context memory
-
-## Licensing (Wikipedia)
-As of January 1, 2017, the patent terms of most licensed patents under the G.729 Consortium have expired, the remaining unexpired patents are usable on a royalty-free basis. G.729 includes patents from several companies which were until the expiry licensed by Sipro Lab Telecom, the authorized Intellectual Property Licensing Administrator for G.729 technology and patent pool.

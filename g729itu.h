@@ -5,7 +5,7 @@
 #include <stdint.h>
 
 /* comment this to not include test data (big) */
-#define VECTORS_TEST
+//#define VECTORS_TEST
 
 /* front declaration */
 struct g729itu_vocoder;

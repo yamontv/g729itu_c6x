@@ -1,3 +1,4 @@
+#ifdef VECTORS_TEST
 #include <g729itu.h>
 #include <string.h>
 #include "../Sources/typedef.h"
@@ -16,8 +17,6 @@
 #include "tstseq4_bin.h"
 #include "tstseq4a_bit.h"
 #include "tstseq4a_out.h"
-
-#ifdef VECTORS_TEST
 
 void g729itu_prm_decode(struct g729itu_vocoder *voc, Word16 prm[PRM_SIZE + 1],
 		int16_t signal[]);

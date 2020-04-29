@@ -12,14 +12,13 @@
 /*****************************************************************************/
 /* bit stream manipulation routines                                          */
 /*****************************************************************************/
+#ifdef VECTORS_TEST
 #include <g729itu.h>
 #include "../Sources/typedef.h"
 #include "../Sources/ld8a.h"
 #include "../Sources/tab_ld8a.h"
 #include "../Sources/tab_dtx.h"
 #include "../Sources/octet.h"
-
-#ifdef VECTORS_TEST
 
 #define RATE_8000       80      /* Full rate  (8000 bit/s)       */
 #define RATE_SID        15      /* SID                           */
